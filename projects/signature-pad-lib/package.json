@@ -1,0 +1,43 @@
+{
+  "name": "signature-pad-lib",
+  "version": "0.0.1",
+  "description": "A Library for converting an image from a canvas to base64.",
+  "scripts": {
+    "lint": "eslint ./ --ext .ts",
+    "build": "ng build --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Runninghill/angular-signature-pad.git"
+  },
+  "peerDependencies": {
+    "@angular/common": "^10.0.0",
+    "@angular/core": "^10.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "~14.14.35",
+    "@typescript-eslint/eslint-plugin": "~4.18.0",
+    "@typescript-eslint/parser": "~4.18.0",
+    "@angular-devkit/build-angular": "~0.1002.3",
+    "eslint": "~7.20.0",
+    "typescript": "~4.0.2",
+    "@angular/common": "^10.2.4",
+    "@angular/core": "^10.2.4",
+    "@angular/forms": "~10.2.0",
+    "rxjs": "~6.6.0"
+  },
+  "keywords": [
+    "angular",
+    "signaturepad",
+    "canvas",
+    "southafrica"
+  ],
+  "author": "Runninghill Software Development",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Runninghill/angular-signature-pad/issues"
+  }
+}
